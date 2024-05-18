@@ -14,7 +14,8 @@ To replicate the analysis, follow these steps:
 2. Run the Spark jobs using the following commands:
     
     srun --mem 5120 --partition=high_mem -N2 --time 120 --pty --account=is789sp24 $SHELL
-    /path/to/spark/bin/spark-submit Linearregression.py /path/to/project/csv /path/to/project/outputfiles
+
+     /path/to/spark/bin/spark-submit Linearregression.py /path/to/project/csv /path/to/project/outputfiles
 
     /path/to/spark/bin/spark-submit Randomforest.py /path/to/project/csv /path/to/project/outputfiles
 
